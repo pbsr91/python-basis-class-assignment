@@ -1,0 +1,26 @@
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
+
+
+
+thislist = ["hut","building","house"]
+thislist.insert(2,"shelter")
+print(thislist)
+
+thislist = ["hut","building","house","shelter"]
+thislist.remove("house")
+print(thislist)
+
+thislist = ["hut","building","house","shelter"]
+thislist.pop(2)
+print(thislist)
+
+thislist = ["hut","building","house","shelter"]
+thislist.clear()
+print(thislist)
+
+thislist1 = ["hut","building","house","shelter"]
+thislist2 = ["apple", "banana", "cherry"]
+thislist1.extend(thislist2)
+print(thislist1)
